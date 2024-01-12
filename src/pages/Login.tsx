@@ -36,6 +36,7 @@ const Login: React.FC = () => {
                             <IonButton expand="full" className="ion-margin-top secondary" onClick={handleInscriptionClick}>S'INSCRIRE</IonButton>
                             </div>
                         </IonCol>
+                        
                     </IonRow>
                 </IonGrid>
             </IonContent>
