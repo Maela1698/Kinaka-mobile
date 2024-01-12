@@ -1,5 +1,7 @@
 import React from 'react';
 import { IonButtons, IonContent, IonHeader, IonMenu, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import './style/main.css';
+
 function Acceuil() {
   return (
     <>
