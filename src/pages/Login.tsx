@@ -26,7 +26,7 @@ const Login: React.FC = () => {
                 <IonGrid>
                     <IonRow>
                         <IonCol size="12" size-md="6" offset-md="3">
-                            <IonTitle className="ion-text-center ion-margin-top kinaka-title">KINAKA lelenina</IonTitle> 
+                            <IonTitle className="ion-text-center ion-margin-top kinaka-title">KINAKA</IonTitle> 
                             <div className="ion-margin ion-margin-lg">
                             <IonInput label="Mail" labelPlacement="floating" fill="outline" type="email" required/>
                             <br/>
