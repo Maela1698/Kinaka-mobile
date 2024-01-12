@@ -20,7 +20,7 @@ function Acceuil() {
             <IonTitle>Kinaka</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <IonContent className="ion-padding">Bonjour Mr</IonContent>
+        <IonContent className="ion-padding">Bonjour Mr Ano tay pory fa mety</IonContent>
       </IonPage>
     </>
   );
