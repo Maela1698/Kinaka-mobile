@@ -1,0 +1,7 @@
+{
+  "name": "Kinaka",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
