@@ -4,6 +4,8 @@ import { IonReactRouter } from '@ionic/react-router';
 import Login from './pages/Login';
 
 
+
+
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -24,6 +26,8 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import Inscription from './pages/Inscription';
 import Acceuil from './pages/Acceuil';
+import ListeAnnonces from './pages/ListeAnnonces';
+import Message from './pages/Message';
 
 setupIonicReact();
 
@@ -31,19 +35,14 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/login">
-          <Login />
-        </Route>
-        <Route exact path="/inscription">
-          <Inscription />
-        </Route>
-        <Route exact path="/acceuil">
-          <Acceuil />
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/login" />
-        </Route>
-      </IonRouterOutlet>
+        <Route exact path="/" component={Login} />
+        <Route exact path="/inscription" component={Inscription} />
+        <Route path="/listeAnnonces" component={ListeAnnonces} />
+        <Route path="/messages" component={Message} />
+        <Route path="/app" component={Acceuil}/>
+
+
+      </IonRouterOutlet>  
     </IonReactRouter>
   </IonApp>
 );
